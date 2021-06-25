@@ -12,7 +12,6 @@ function inductive(num: number) {
 
 function recursive(num: number): number {
   if (num < 1) throw Error("'num' is not more than 0");
-
   if (num === 1) return 1;
   else return 2 * recursive(num - 1) + 1;
 }
